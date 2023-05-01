@@ -1,0 +1,70 @@
+.form{
+    background-color: aqua;
+    margin-left:500px;
+    margin-top:20px;
+}
+body{
+margin-top: 0px;
+padding-top: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+
+.top-container{
+    background-color: aqua;
+    position: relative;
+}
+input{
+    width: 300px; height: 40px;
+    
+}
+button{
+    width: 100px; height: 40px;
+}
+.footer-container{
+
+    background-color: aqua;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.table {
+    border-collapse: collapse;
+    padding: 10px;
+    margin-left:500px;
+    width:100%
+  }
+
+  .table th,
+  .table td {
+    padding: 10px;
+  }
+  #result{
+    margin-left:800px;
+  }
+  .link-button {
+    height: 100px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-left: 200px;
+    position: fixed;
+    
+  }
+  
+  .second-image{
+    margin-left: 600px;
+  }

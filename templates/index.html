@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+	<div class="top-container">
+		<div class="form">
+			<form action="/search" method="GET">
+				<label for="search_term">Enter mimetype:</label>
+				<input type="text" name="search_term" id="search_term" placeholder="e.g. application,text">
+				<button class="button" type="submit">Search</button>
+			</form>
+		</div>
+	</div>
+<div class="footer-container">
+<footer class="footer">
+	<p>&copy; 2023  Website. All rights reserved.</p>
+    <nav>
+      <ul>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+</footer>
+</div>	
+</body>
+</html>

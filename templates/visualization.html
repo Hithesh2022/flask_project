@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mimetype Counts Visualization</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+   <div class="first-image">
+    <h1>Mimetype Counts for "{{ search_term }}"</h1>
+    <img src="{{ url_for('static', filename=filename) }}" alt="Mimetype Counts">
+
+         <div class="content">
+         <ul>
+        {% for mimetype, count in mimetype_counts.items() %}
+            <li>{{ mimetype }}: {{ count }}</li>
+        {% endfor %}
+         </ul>
+     </div>
+</div>
+<div class="second-image">
+    <img src="{{ url_for('static', filename=all_filename) }}" alt="Mimetype Counts">
+</div>
+</body>
+</html>
